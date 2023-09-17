@@ -1,2 +1,2 @@
-# Tendel-App
+# TendelViews
 GodkendelsesOpgave1-INNT-Brugerinddragelse
