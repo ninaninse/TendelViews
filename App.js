@@ -72,15 +72,16 @@ export default function App() {
   const GuestPage = () => {
     return (
       <View style={styles.container}>
+        
         <Text style={styles.paragraph}>
           Sign up or Login to Tendel
         </Text>
 
-        <Card style={{ padding: 20, margin: 20 }}>
+        <Card style={{ padding: 40, margin: 1, border: 4 }}>
           <SignUpForm />
         </Card>
 
-        <Card style={{ padding: 20, margin: 20 }}>
+        <Card style={{ padding: 40, margin: 1, border: 4 }}>
           <LoginForm />
         </Card>
       </View>
@@ -98,8 +99,8 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={({ route }) => ({
-          tabBarActiveTintColor: 'blue',
-          tabBarInactiveTintColor: 'gray',
+          tabBarActiveTintColor: 'pink',
+          tabBarInactiveTintColor: 'pink',
           tabBarStyle: [
             {
               display: 'flex',
@@ -145,14 +146,15 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#FFC0CB',
     alignItems: 'center',
     justifyContent: 'center',
   },
   paragraph: {
-    margin: 24,
-    fontSize: 18,
+    margin: 20,
+    fontSize: 23,
     fontWeight: 'bold',
     textAlign: 'center',
+    fontFamily: "Times New Roman",
   },
 });
